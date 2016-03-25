@@ -1,0 +1,15 @@
+doctype html
+html
+  
+  include ./includes/head
+  
+  body
+    include ./includes/menu
+    
+    div.container
+      block content
+    
+      include ./includes/foot  
+        
+    script(type="text/javascript", src="/libs/jquery/dist/jquery.js")
+    script(type="text/javascript", src="/libs/bootstrap/dist/js/bootstrap.js")
